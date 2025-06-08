@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Salarium Chain MVP</title>
+  <script src="../scripts/main.js" defer></script>
+</head>
+<body>
+  <h1>Salarium Chain</h1>
+  <button onclick="connectWallet()">Connect Wallet</button>
+  <p id="walletAddress"></p>
+
+  <h2>Mint GRIT</h2>
+  <input type="text" id="mintAmount" placeholder="Amount to mint">
+  <button onclick="mintGRIT()">Mint GRIT</button>
+
+  <h2>Convert GRIT to GRAIN</h2>
+  <input type="text" id="convertAmount" placeholder="Amount to convert">
+  <button onclick="convertGRIT()">Convert</button>
+
+  <h2>Submit Task Proof</h2>
+  <input type="file" id="proofUpload">
+  <p><em>(QR/photo logic placeholder)</em></p>
+</body>
+</html>
